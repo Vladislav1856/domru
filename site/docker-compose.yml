@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: y2De9qUw
+      MYSQL_DATABASE: domru
+      MYSQL_USER: domRU
+      MYSQL_PASSWORD: kJ5TEs9a
+
+  wordpress:
+    image: wordpress:6.2.2
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: domRU
+      WORDPRESS_DB_PASSWORD: kJ5TEs9a
+      WORDPRESS_DB_NAME: domru
+      WORDPRESS_LANGUAGE: ru_RU
+      WORDPRESS_USER: domru  # Замените на имя пользователя администратора WordPress
+      WORDPRESS_PASSWORD: yYgfN0eH  # Замените на пароль администратора WordPress
+
+volumes:
+  db_data:

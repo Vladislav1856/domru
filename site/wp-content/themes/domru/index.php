@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ресурсы НТПКК</title>
+  <link rel="stylesheet" href="/wp-content/themes/domru/style.css">
+  
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <h2>Базовые:</h2>
+    <p><a href="http://cfp.ucce.ertelecom.ru/desktop/container/?locale=ru_RU" target="_blank">Cisco Finesse Primary (CFP)</a><a href="http://cfs.ucce.ertelecom.ru/desktop/container/?locale=ru_RU" target="_blank">(CFS)</a></p>
+    <p><a href="https://tm.bss.loc/csrdesktop/csrdesktop.jsp" target="_blank"> BSS /</a><a href="https://izhevsk.db.ertelecom.ru/cgi-bin/ppo/excells/b2b_pc_my_desktop_v3.login_crm?desktop_rg$i=3" target="_blank"> CRM b2b /</a><a href="https://crm.o.westcall.spb.ru/fx/$crm/ru.naumen.crm2.published_jsp?uuid=coreboqnpd7380000i12mtv3s695au7k" target="_blank"> Naumen /</a><a href="ms-browser-url:http://crm-erth.enforta.net/" target="_blank"> KRUS</a></p>
+    <p><a href="https://okc2.ertelecom.ru/wfm/vueapp/day" target="_blank">График работы</a><a href="#" target="_blank"> (Обеды)</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/line/okc2wfm_ntpcc" target="_blank">Очередь НТПКК</a><a href="https://okc.ertelecom.ru/stats/line/okc2wfm_b2b1l" target="_blank"> (ННЛ)</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/breaks/b2b-tp" target="_blank">Очередь перерывов НТПКК</a><a href="https://okc.ertelecom.ru/stats/breaks/b2b-cc" target="_blank"> (ННЛ)</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/boardb2b/head" target="_blank">Дашборт b2b</a><a href="https://okc.ertelecom.ru/stats/dashboard/b2btp" target="_blank"> (НТПКК</a><a href="https://okc.ertelecom.ru/stats/boardb2b/lineb2b" target="_blank"> /ННЛ)</a></p>
+  </div>
+  <div class="column">
+    <h2>Поддержка:</h2>
+    <p><a href="https://portal.domru.ru/" target="_blank">Личный кабинет</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/lkb2b/index" target="_blank">Показатели</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/gokb2b/gok" target="_blank">Оценка качества</a></p>
+    <p><a href="file://S:\FS2\Направление технической поддержки\График работы 1с\2023г\Графики работы НТПКК b2b 2023г.xlsx" target="_blank">График работы 1с</a></p>
+    <p><a href="file://S:\FS2\Направление технической поддержки\График отпусков\График отпусков 2023г., с учетом 0,5 остатков с 2022г. Токмакова.xlsx" target="_blank">График отпусков</a></p>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <h2>Инструменты диагностики:</h2>
+    <p><a href="#" target="_blank">База Знаний b2b</a></p>
+    <p id="openWindow" onclick="handleOpenWindow()"><a>Диагностика и описание услуг</a></p>
+    <div id="overlay">
+      <div id="popup">
+        <h2><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=402495313" target="_blank">Интернет:</a></h2>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=402495321&name=%D0%9D%D0%B5%D1%82%20%D1%81%D0%B5%D1%81%D1%81%D0%B8%D0%B8&version=15&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D1%2581%25D0%25B5%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8.png%3Fversion%3D15%26modificationDate%3D1648101187617%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D1%2581%25D0%25B5%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%3Fversion%3D15%26modificationDate%3D1648101187588%26api%3Dv2">Нет сессии</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=402495340&name=%D0%9D%D0%B8%D0%B7%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C&version=4&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B8%25D0%25B7%25D0%25BA%25D0%25B0%25D1%258F%2520%25D1%2581%25D0%25BA%25D0%25BE%25D1%2580%25D0%25BE%25D1%2581%25D1%2582%25D1%258C.png%3Fversion%3D4%26modificationDate%3D1642481301576%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B8%25D0%25B7%25D0%25BA%25D0%25B0%25D1%258F%2520%25D1%2581%25D0%25BA%25D0%25BE%25D1%2580%25D0%25BE%25D1%2581%25D1%2582%25D1%258C%3Fversion%3D4%26modificationDate%3D1642481301533%26api%3Dv2">Низкая скорость</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=402495327&name=%D0%9D%D0%B5%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F%20%D0%B2%D1%81%D0%B5%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B&version=9&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B5%2520%25D0%25BE%25D1%2582%25D0%25BA%25D1%2580%25D1%258B%25D0%25B2%25D0%25B0%25D1%258E%25D1%2582%25D1%2581%25D1%258F%2520%25D0%25B2%25D1%2581%25D0%25B5%2520%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2586%25D1%258B.png%3Fversion%3D9%26modificationDate%3D1654067130369%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259D%25D0%25B5%2520%25D0%25BE%25D1%2582%25D0%25BA%25D1%2580%25D1%258B%25D0%25B2%25D0%25B0%25D1%258E%25D1%2582%25D1%2581%25D1%258F%2520%25D0%25B2%25D1%2581%25D0%25B5%2520%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2586%25D1%258B%3Fversion%3D9%26modificationDate%3D1654067130330%26api%3Dv2">Не открываются все страницы</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=402495329&name=%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20%D0%A0%D0%9C&version=2&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%2594%25D0%25B8%25D0%25B0%25D0%25B3%25D0%25BD%25D0%25BE%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0%2520%25D0%25A0%25D0%259C.png%3Fversion%3D2%26modificationDate%3D1626067111070%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%2594%25D0%25B8%25D0%25B0%25D0%25B3%25D0%25BD%25D0%25BE%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0%2520%25D0%25A0%25D0%259C%3Fversion%3D2%26modificationDate%3D1626067111022%26api%3Dv2">Диагностика РМов</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=402495323&name=%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%81e%D1%82%D0%B8&version=3&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259F%25D1%2580%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2580%25D0%25BA%25D0%25B0%2520%25D0%25BB%25D0%25BE%25D0%25BA%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D0%25BE%25D0%25B9%2520%25D1%2581e%25D1%2582%25D0%25B8.png%3Fversion%3D3%26modificationDate%3D1646111403021%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F%25D0%259F%25D1%2580%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2580%25D0%25BA%25D0%25B0%2520%25D0%25BB%25D0%25BE%25D0%25BA%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D0%25BE%25D0%25B9%2520%25D1%2581e%25D1%2582%25D0%25B8%3Fversion%3D3%26modificationDate%3D1646111402964%26api%3Dv2">Проверка ЛС</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402495319&attachmentId=443483168&name=_%D1%80%D0%B0%D0%B7%D1%80%D1%8B%D0%B2%D1%8B&version=3&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402495319&imageUrl=%2Fdownload%2Fattachments%2F402495319%2F_%25D1%2580%25D0%25B0%25D0%25B7%25D1%2580%25D1%258B%25D0%25B2%25D1%258B.png%3Fversion%3D3%26modificationDate%3D1626074876618%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402495319%2F_%25D1%2580%25D0%25B0%25D0%25B7%25D1%2580%25D1%258B%25D0%25B2%25D1%258B%3Fversion%3D3%26modificationDate%3D1626074876558%26api%3Dv2">Разрывы</a>
+<h2><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=402497656&src=contextnavpagetreemode" target="_blank">Телефония:</a></h2>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497659&attachmentId=402497661&name=%D0%9D%D0%B5%D1%82%20%D0%98%D0%A1%D0%A5%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8&version=7&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497659&imageUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D0%2598%25D0%25A1%25D0%25A5%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8.png%3Fversion%3D7%26modificationDate%3D1646806563314%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D0%2598%25D0%25A1%25D0%25A5%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8%3Fversion%3D7%26modificationDate%3D1646806563271%26api%3Dv2">Нет исходящей</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497659&attachmentId=402497671&name=%D0%9A%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8&version=5&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497659&imageUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259A%25D0%25B0%25D1%2587%25D0%25B5%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8.png%3Fversion%3D5%26modificationDate%3D1646806801555%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259A%25D0%25B0%25D1%2587%25D0%25B5%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8%3Fversion%3D5%26modificationDate%3D1646806801371%26api%3Dv2">Помехи, односторонняя слышимость</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497659&attachmentId=402497673&name=%D0%9D%D0%B5%D1%82%20%D0%92%D0%A5%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B8&version=8&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497659&imageUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D0%2592%25D0%25A5%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8.png%3Fversion%3D8%26modificationDate%3D1626757280124%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D0%2592%25D0%25A5%2520%25D1%2581%25D0%25B2%25D1%258F%25D0%25B7%25D0%25B8%3Fversion%3D8%26modificationDate%3D1626757280054%26api%3Dv2">Нет входящей</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497659&attachmentId=402497675&name=%D0%9D%D0%B5%D1%82%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8&version=4&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497659&imageUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D1%2580%25D0%25B5%25D0%25B3%25D0%25B8%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D1%2586%25D0%25B8%25D0%25B8.png%3Fversion%3D4%26modificationDate%3D1626069045205%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497659%2F%25D0%259D%25D0%25B5%25D1%2582%2520%25D1%2580%25D0%25B5%25D0%25B3%25D0%25B8%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D1%2586%25D0%25B8%25D0%25B8%3Fversion%3D4%26modificationDate%3D1626069045150%26api%3Dv2">Нет регистрации</a>
+<h2><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=402497907&src=contextnavpagetreemode" target="_blank">ОАТС 3.0/4.0</a><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=402497794&src=contextnavpagetreemode" target="_blank">ОАТС 2.0:</a></h2>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497931&attachmentId=402497947&name=%D0%98%D0%A1%D0%A5_%D0%94%D0%98%D0%90%D0%93_%D0%9E%D0%90%D0%A2%D0%A1_3.0&version=17&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497931&imageUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%2598%25D0%25A1%25D0%25A5_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0.png%3Fversion%3D17%26modificationDate%3D1631192542942%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%2598%25D0%25A1%25D0%25A5_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0%3Fversion%3D17%26modificationDate%3D1631192542905%26api%3Dv2">Нет исходящей</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497931&attachmentId=445260024&name=%D0%92%D0%A5_%D0%94%D0%98%D0%90%D0%93_%D0%9E%D0%90%D0%A2%D0%A1_3.0&version=11&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497931&imageUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%2592%25D0%25A5_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0.png%3Fversion%3D11%26modificationDate%3D1626087146598%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%2592%25D0%25A5_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0%3Fversion%3D11%26modificationDate%3D1626087146495%26api%3Dv2">Нет входящей</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497931&attachmentId=402497933&name=%D0%9D%D0%B5%D1%82_%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8_%D0%94%D0%98%D0%90%D0%93_%D0%9E%D0%90%D0%A2%D0%A1_3.0&version=7&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497931&imageUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259D%25D0%25B5%25D1%2582_%25D1%2580%25D0%25B5%25D0%25B3%25D0%25B8%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D1%2586%25D0%25B8%25D0%25B8_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0.png%3Fversion%3D7%26modificationDate%3D1653883557244%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259D%25D0%25B5%25D1%2582_%25D1%2580%25D0%25B5%25D0%25B3%25D0%25B8%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D1%2586%25D0%25B8%25D0%25B8_%25D0%2594%25D0%2598%25D0%2590%25D0%2593_%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1_3.0%3Fversion%3D7%26modificationDate%3D1653883557178%26api%3Dv2">Нет регистрации</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497931&attachmentId=445258491&name=%D0%9E%D0%90%D0%A2%D0%A1%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE&version=9&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497931&imageUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1%2520%25D0%25BA%25D0%25B0%25D1%2587%25D0%25B5%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE.png%3Fversion%3D9%26modificationDate%3D1626089027306%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1%2520%25D0%25BA%25D0%25B0%25D1%2587%25D0%25B5%25D1%2581%25D1%2582%25D0%25B2%25D0%25BE%3Fversion%3D9%26modificationDate%3D1626089027253%26api%3Dv2">Помехи, односторонняя слышимость</a>
+		<a href="https://kb.ertelecom.ru/plugins/gliffy/viewer.action?inline=false&pageId=402497931&attachmentId=402497941&name=%D0%9D%D0%BE%D0%BC%D0%B5%D1%80%20%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0%20%D0%9E%D0%90%D0%A2%D0%A1&version=4&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D402497931&imageUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259D%25D0%25BE%25D0%25BC%25D0%25B5%25D1%2580%2520%25D0%2594%25D1%2580%25D1%2583%25D0%25B3%25D0%25BE%25D0%25B3%25D0%25BE%2520%25D0%25BE%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B0%25D1%2582%25D0%25BE%25D1%2580%25D0%25B0%2520%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1.png%3Fversion%3D4%26modificationDate%3D1626093629335%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F402497931%2F%25D0%259D%25D0%25BE%25D0%25BC%25D0%25B5%25D1%2580%2520%25D0%2594%25D1%2580%25D1%2583%25D0%25B3%25D0%25BE%25D0%25B3%25D0%25BE%2520%25D0%25BE%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B0%25D1%2582%25D0%25BE%25D1%2580%25D0%25B0%2520%25D0%259E%25D0%2590%25D0%25A2%25D0%25A1%3Fversion%3D4%26modificationDate%3D1626093629281%26api%3Dv2">Нет вх/исх на номере стороннего оператора</a>
+		<a href="http://Ats.domru.ru" target="_blank">ЛК ОАТС 2.0</a>
+<span id="closeButton">&times;</span>
+      </div>
+    </div>
+    <p><a href="https://cliks.ertelecom.ru/manage.php" target="_blank">Cliks</a></p>
+    <p><a href="http://provisioning.ertelecom.ru:8080/devices/" target="_blank">Provisioning</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=406326003" target="_blank">Особенности обслуживания всех сегментов</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=395582036" target="_blank">Постановка клиентов на мониторинг</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=412042158" target="_blank">RTU / TCP Dump</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=630872123#opisanie_stolbov-110154913" target="_blank">СПАС</a></p>
+  </div>
+  <div class="column">
+    <h2>Инструменты контроля:</h2>
+    <p><a href="https://okc.ertelecom.ru/stats/ure-b2b/b2b" target="_blank">Единая отчетная среда</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/ciscob2b/statuses" target="_blank">Статусы и звонки</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/controlsg/index" target="_blank">Проверка skill groups</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/detail/index" target="_blank">Расшифровка звонка</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/linehistory/index" target="_blank">История линии</a></p>
+    <p><a href="https://okc.ertelecom.ru/stats/testing/lk/profile" target="_blank">Тестирования</a></p>
+  </div>
+</div>
+  <div class="row">
+  <div class="column">
+    <h2>Расширенная статистика:</h2>
+    <p><a href="http://bi1.ertelecom.ru:9704/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2F%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8%20B2B%2F_portal%2F168%20-%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8%20B2B&page=KPI%20%D0%A2%D0%9F%D0%9A%D0%9A" target="_blank">168 - Централизованные площадки B2B</a></p>
+    <p><a href="http://bi1.ertelecom.ru:9704/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2F%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8%20B2B%2F%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D1%8B%2F%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F&page=%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%201" target="_blank">Внутренние обращения</a></p>
+    <p><a href="http://bi.ertelecom.ru:9704/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2F%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D1%8B%2F_portal%2F141%20-%20CISCO&Page=%D0%92%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D0%B5%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B8" target="_blank">141 – CISCO</a></p>
+    <p><a href="http://genesys-app1.cc4.ertelecom.ru:82/ui/ad/v1/index.html" target="_blank">Genesys B2B</a></p>
+    <p><a href="http://bi.ertelecom.ru:9704/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2FHR%2F_portal%2F107%20-%20KPI%20HR&page=%D0%A2%D0%B5%D0%BA%D1%83%D1%87%D0%B5%D1%81%D1%82%D1%8C%20%D0%B2%20%D1%80%D0%B0%D0%B7%D1%80%D0%B5%D0%B7%D0%B5%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%B2" target="_blank">107 - KPI HR</a></p>
+    <p><a href="http://bi.ertelecom.ru:9704/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2F%D0%9E%D0%B1%D1%81%D0%BB%D1%83%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20B2B%2F%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D1%8B%2F%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8%20B2B%2F%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2&page=%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%20(%D0%B2%D1%8B%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0)" target="_blank">Эффективность сотрудников</a></p>
+  </div>
+  <div class="column">
+    <h2>Результаты работы:</h2>
+    <p><a href="https://okc.ertelecom.ru/stats/premium/b2b-ntp" target="_blank">Премиум b2b НТП</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=417646036#2022-12345" target="_blank">Мотивация</a></p>
+    <p><a href="https://kb.ertelecom.ru/pages/viewpage.action?pageId=394209741" target="_blank">Расчетный лист</a></p>
+  </div>
+</div>
+<div id="time" onclick="handleTimeDiv()"></div>
+<div id="cities">
+  <ul>
+    <li>Алтайский край: <span id="time-altay"></span></li>
+		<li>Башкортостан Республика: <span id="time-bashkortostan"></span></li>
+		<li>Брянская область: <span id="time-bryansk"></span></li>
+		<li>Бурятия Республика: <span id="time-buryatia"></span></li>
+		<li>Волгоградская область: <span id="time-volgograd"></span></li>
+		<li>Воронежская область: <span id="time-voronezh"></span></li>
+		<li>Иркутская область: <span id="time-irkutsk"></span></li>
+		<li>Кировская область: <span id="time-kirov"></span></li>
+		<li>Красноярский край: <span id="time-krasnoyarsk"></span></li>
+		<li>Курганская область: <span id="time-kurgan"></span></li>
+		<li>Курская область: <span id="time-kursk"></span></li>
+		<li>Липецкая область: <span id="time-lipetsk"></span></li>
+		<li>Марий Эл Республика: <span id="time-mariel"></span></li>
+		<li>Москва: <span id="time-moscow"></span></li>
+		<li>Нижегородская область: <span id="time-nizhnynovgorod"></span></li>
+		<li>Омская область: <span id="time-omsk"></span></li>
+		<li>Оренбургская область: <span id="time-orenburg"></span></li>
+		<li>Пензенская область: <span id="time-penza"></span></li>
+		<li>Пермский край: <span id="time-perm"></span></li>
+		<li>Ростовская область: <span id="time-rostov"></span></li>
+		<li>Рязанская область: <span id="time-ryazan"></span></li>
+		<li>Самарская область: <span id="time-samara"></span></li>
+		<li>Санкт-Петербург: <span id="time-saintpetersburg"></span></li>
+		<li>Саратовская область: <span id="time-saratov"></span></li>
+		<li>Свердловская область: <span id="time-sverdlovsk"></span></li>
+		<li>Тамбовская область: <span id="time-tambov"></span></li>
+		<li>Татарстан Республика: <span id="time-tatarstan"></span></li>
+		<li>Тверская область: <span id="time-tver"></span></li>
+		<li>Томская область: <span id="time-tomsk"></span></li>
+		<li>Тульская область: <span id="time-tula"></span></li>
+		<li>Тюменская область: <span id="time-tyumen"></span></li>
+		<li>Удмуртская Республика: <span id="time-udmurtia"></span></li>
+		<li>Ульяновская область: <span id="time-ulyanovsk"></span></li>
+		<li>Челябинская область: <span id="time-chelyabinsk"></span></li>
+		<li>Чувашская Республика: <span id="time-chuvashia"></span></li>
+		<li>Ярославская область: <span id="time-yaroslavl"></span></li>
+  </ul>
+</div>
+
+<div class="box">
+<div class="invite-friend-toggle">
+  <img src="/wp-content/themes/domru/background/nsr.jpg" href="/wp-content/themes/domru/1+1.php" width="90%" height="90%" alt="Описание изображения">
+  <br>
+  <div class="custom-link">
+  <a href="/wp-content/themes/domru/1+1.php" class="custom-link-text">Акция 1+1: Приведи друга, получи вознаграждение!</a>
+</div>
+</div>
+</div>
+
+<script>
+  function displayQuote() {
+    fetch('/wp-content/themes/domru/data/cit.txt')
+      .then(response => response.text())
+      .then(data => {
+        const quotes = data.split('\n'); // Разделяем цитаты по строкам
+        const randomIndex = Math.floor(Math.random() * quotes.length); // Генерируем случайный индекс цитаты
+        const quoteElement = document.getElementById('quote');
+        quoteElement.textContent = quotes[randomIndex]; // Выводим случайно выбранную цитату
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  }
+  
+  displayQuote();
+  </script>
+<div id="quote"></div>
+<script src="/wp-content/themes/domru/script/script-time-closeopen-window.js"></script>
+</body>
+</html>
