@@ -2,15 +2,14 @@ version: '3'
 
 services:
   db:
-    image: mysql:5.7
+    image: postgres:latest
     volumes:
-      - db_data:/var/lib/mysql
+      - db_data:/var/lib/postgresql/data
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: y2De9qUw
-      MYSQL_DATABASE: domru
-      MYSQL_USER: domRU
-      MYSQL_PASSWORD: kJ5TEs9a
+      POSTGRES_PASSWORD: y2De9qUw
+      POSTGRES_USER: domRU
+      POSTGRES_DB: domru
 
   wordpress:
     image: wordpress:6.2.2
@@ -22,11 +21,11 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: domRU
-      WORDPRESS_DB_PASSWORD: kJ5TEs9a
+      WORDPRESS_DB_PASSWORD: y2De9qUw  # Измените пароль на новый пароль PostgreSQL
       WORDPRESS_DB_NAME: domru
       WORDPRESS_LANGUAGE: ru_RU
-      WORDPRESS_USER: domru  # Замените на имя пользователя администратора WordPress
-      WORDPRESS_PASSWORD: yYgfN0eH  # Замените на пароль администратора WordPress
+      WORDPRESS_USER: domru
+      WORDPRESS_PASSWORD: yYgfN0eH
 
 volumes:
   db_data:
